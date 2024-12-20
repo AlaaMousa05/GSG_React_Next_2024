@@ -1,0 +1,50 @@
+.keypad {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto auto auto;
+    gap: 5px;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.keypad-button {
+    padding: 15px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.keypad-button.number {
+    background-color: #4285f4;
+    color: white;
+}
+
+.keypad-button.operator {
+    background-color: #fb8c00;
+    color: white;
+}
+
+.keypad-button.equals {
+    background-color: #34a853;
+    color: white;
+    grid-column: span 4;
+}
+
+.keypad-button.clear {
+    background-color: #d9534f;
+    color: white;
+    /* grid-column: span 2; */
+}
+
+.keypad-button.delete {
+    background-color: #f0ad4e;
+    color: white;
+    /* grid-column: span 2; */
+}
+
+.keypad-button:hover {
+    background-color: #6c6c6c;
+    color: white;
+}
