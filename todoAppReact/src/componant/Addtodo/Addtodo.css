@@ -1,0 +1,83 @@
+.todo {
+  font-size: 25px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.urgent-checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 90%;
+  margin: 15px 0;
+
+}
+
+.urgent-checkbox input[type="checkbox"] {
+  margin-right: 10px;
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+
+.urgent-checkbox label {
+  font-size: 14px;
+  color: #333;
+  cursor: pointer;
+
+}
+
+.urgent-checkbox input[type="checkbox"]:checked+label {
+  color: green;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  margin: 20px auto;
+}
+
+form input[type="text"] {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+form input[type="text"]:focus {
+  border-color: #4caf50;
+
+  outline: none;
+}
+
+form button {
+  width: 90%;
+
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #45a049;
+}
+
+form label {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 10px;
+}

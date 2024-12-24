@@ -1,0 +1,14 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: rgba(50, 33, 124, 0.416);
+  border-radius: 8px;
+
+
+}
+
+body {
+  background-color: #1b024d;
+}
