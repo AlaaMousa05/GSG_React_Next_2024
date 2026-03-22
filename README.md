@@ -1,6 +1,6 @@
-# GSG React & Next.js 2024
+# GSG React & Next.js 2024-2025
 
-A collection of React and Next.js learning projects and exercises built during the GSG training program in 2024.
+A collection of React and Next.js learning projects and exercises built during the GSG training program in 2024-2025.
 
 ## Projects Included
 
